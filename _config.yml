@@ -1,0 +1,23 @@
+title: Daeun Kwon — Projects & Notes
+description: 권다은의 개인 프로젝트와 작업 노트
+url: https://ddaeunn425.github.io
+baseurl: ""
+timezone: Asia/Seoul
+markdown: kramdown
+kramdown:
+  input: GFM
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+exclude:
+  - README.md
+  - EDITING.md
+  - Gemfile
+  - Gemfile.lock

@@ -1,0 +1,386 @@
+{
+  "media": [
+    {
+      "name": "files",
+      "label": "첨부 자료",
+      "input": "media",
+      "output": "/media",
+      "categories": [
+        "image",
+        "document"
+      ]
+    }
+  ],
+  "content": [
+    {
+      "name": "home",
+      "label": "내 정보·메인 화면",
+      "type": "file",
+      "path": "_data/home.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "name_ko",
+          "label": "이름 (한글)",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "name_en",
+          "label": "이름 (영문)",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "affiliation",
+          "label": "소속·전공",
+          "type": "string"
+        },
+        {
+          "name": "headline",
+          "label": "메인 제목 (줄바꿈 가능)",
+          "type": "text"
+        },
+        {
+          "name": "intro",
+          "label": "메인 소개",
+          "type": "text"
+        },
+        {
+          "name": "bio",
+          "label": "자기소개",
+          "type": "text"
+        },
+        {
+          "name": "interests",
+          "label": "관심 분야",
+          "type": "string"
+        },
+        {
+          "name": "contact",
+          "label": "공개 연락처",
+          "type": "string"
+        },
+        {
+          "name": "github_label",
+          "label": "GitHub 표시 이름",
+          "type": "string"
+        },
+        {
+          "name": "github_url",
+          "label": "GitHub 주소",
+          "type": "string"
+        },
+        {
+          "name": "notes",
+          "label": "작업 노트 링크",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "노트 제목",
+              "type": "string"
+            },
+            {
+              "name": "url",
+              "label": "이동할 주소",
+              "type": "string"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "projects",
+      "label": "프로젝트 추가·관리",
+      "type": "collection",
+      "path": "_projects",
+      "format": "yaml-frontmatter",
+      "filename": {
+        "template": "{primary}.md",
+        "field": "create"
+      },
+      "view": {
+        "primary": "title",
+        "fields": [
+          "title",
+          "status"
+        ]
+      },
+      "fields": [
+        {
+          "name": "title",
+          "label": "프로젝트 이름",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "status",
+          "label": "진행 상태",
+          "type": "string",
+          "default": "진행 중"
+        },
+        {
+          "name": "icon",
+          "label": "아이콘",
+          "type": "string",
+          "default": "📁"
+        },
+        {
+          "name": "description",
+          "label": "한 줄 소개",
+          "type": "text"
+        },
+        {
+          "name": "order",
+          "label": "목록 순서 (작을수록 먼저)",
+          "type": "number",
+          "default": 10
+        },
+        {
+          "name": "layout",
+          "label": "페이지 양식",
+          "type": "string",
+          "readonly": true
+        },
+        {
+          "name": "link",
+          "label": "기존 프로젝트 연결 주소",
+          "type": "string",
+          "readonly": true
+        },
+        {
+          "name": "body",
+          "label": "프로젝트 본문 (HSU-PAC 구축 내용은 별도 메뉴에서 수정)",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "media": false
+          }
+        }
+      ]
+    },
+    {
+      "name": "hsu",
+      "label": "HSU-PAC 구축 노트",
+      "type": "file",
+      "path": "_data/hsu.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "subtitle",
+          "label": "페이지 한 줄 설명",
+          "type": "text"
+        },
+        {
+          "name": "author",
+          "label": "작성자·소속",
+          "type": "string"
+        },
+        {
+          "name": "basis",
+          "label": "자료 기준",
+          "type": "string"
+        },
+        {
+          "name": "updated",
+          "label": "최종 정리일",
+          "type": "string"
+        },
+        {
+          "name": "summary",
+          "label": "상단 핵심 요약",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "media": false
+          }
+        },
+        {
+          "name": "overview",
+          "label": "01 현재 기준",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "media": false
+          }
+        },
+        {
+          "name": "phases",
+          "label": "02 1·2·3차 로드맵",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "label",
+              "label": "단계 이름",
+              "type": "string"
+            },
+            {
+              "name": "title",
+              "label": "단계 목표",
+              "type": "string"
+            },
+            {
+              "name": "body",
+              "label": "도입 장비와 할 일",
+              "type": "rich-text",
+              "options": {
+                "format": "html",
+                "media": false
+              }
+            },
+            {
+              "name": "amount",
+              "label": "참고 예산 설명",
+              "type": "text"
+            },
+            {
+              "name": "note",
+              "label": "조건·유의사항",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "name": "equipment_intro",
+          "label": "03 장비 선정 설명",
+          "type": "text"
+        },
+        {
+          "name": "equipment",
+          "label": "구매 장비 목록",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "model",
+              "label": "모델명",
+              "type": "string"
+            },
+            {
+              "name": "status",
+              "label": "확정·추천 상태와 수량",
+              "type": "string"
+            },
+            {
+              "name": "description",
+              "label": "장비 역할과 설명",
+              "type": "rich-text",
+              "options": {
+                "format": "html",
+                "media": false
+              }
+            },
+            {
+              "name": "tags",
+              "label": "주요 사양",
+              "type": "string",
+              "list": true
+            },
+            {
+              "name": "comparison",
+              "label": "대안 비교·선정 근거",
+              "type": "rich-text",
+              "options": {
+                "format": "html",
+                "media": false
+              }
+            }
+          ]
+        },
+        {
+          "name": "equipment_note",
+          "label": "비교견적 관련 안내",
+          "type": "text"
+        },
+        {
+          "name": "budget_intro",
+          "label": "04 예산 설명",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "media": false
+          }
+        },
+        {
+          "name": "budget_rows",
+          "label": "예산 표 (합계는 직접 수정)",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "item",
+              "label": "항목",
+              "type": "string"
+            },
+            {
+              "name": "amount",
+              "label": "부가세 포함 금액 (원 포함)",
+              "type": "string"
+            }
+          ]
+        },
+        {
+          "name": "budget_notes",
+          "label": "예산 조건·잔액·합계 설명",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "media": false
+          }
+        },
+        {
+          "name": "platform",
+          "label": "05 운영 환경",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "media": false
+          }
+        },
+        {
+          "name": "next",
+          "label": "06 남은 확인사항",
+          "type": "rich-text",
+          "options": {
+            "format": "html",
+            "media": false
+          }
+        },
+        {
+          "name": "resources",
+          "label": "07 관련 자료",
+          "type": "object",
+          "list": true,
+          "fields": [
+            {
+              "name": "title",
+              "label": "자료 이름",
+              "type": "string"
+            },
+            {
+              "name": "detail",
+              "label": "파일 설명",
+              "type": "string"
+            },
+            {
+              "name": "file",
+              "label": "파일 경로 또는 업로드",
+              "type": "file",
+              "options": {
+                "media": "files"
+              }
+            }
+          ]
+        },
+        {
+          "name": "resources_note",
+          "label": "자료 기준 안내",
+          "type": "text"
+        }
+      ]
+    }
+  ]
+}
