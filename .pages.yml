@@ -147,7 +147,8 @@
           "name": "layout",
           "label": "페이지 양식",
           "type": "string",
-          "readonly": true
+          "readonly": true,
+          "default": "project"
         },
         {
           "name": "link",
@@ -164,7 +165,10 @@
             "media": false
           }
         }
-      ]
+      ],
+      "operations": {
+        "rename": false
+      }
     },
     {
       "name": "hsu",
@@ -409,4 +413,3 @@
     }
   ]
 }
-
