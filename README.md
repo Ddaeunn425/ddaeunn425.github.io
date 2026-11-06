@@ -5,12 +5,10 @@
 GitHub Pages + Jekyll로 만들고 Pages CMS로 내용을 관리합니다.
 
 - 홈페이지: https://ddaeunn425.github.io/
-- 편집 안내: https://ddaeunn425.github.io/admin/
-- 편집기: https://app.pagescms.org/
 
 ## 홈페이지 구조도
 
-홈페이지의 큰 틀은 **프로젝트 · 소개 · 작업 노트**입니다. 통신망 구축은 이곳에 기록하는 개별 프로젝트 중 하나입니다.
+홈페이지의 큰 틀은 **프로젝트 · 소개 · 작업 노트**입니다.
 
 ```mermaid
 flowchart TD
@@ -56,7 +54,6 @@ ddaeunn425.github.io/
 └── README.md              # 홈페이지 소개 및 구조
 ```
 
-현재 개별 프로젝트인 통신망 구축(HSU-PAC)은 `_projects/hsu-pac.md`, `hsu-pac.html`, `_data/hsu.json`, `_layouts/hsu.html`과 관련 자료 문서를 사용합니다.
 
 ## 내용이 홈페이지에 반영되는 흐름
 
