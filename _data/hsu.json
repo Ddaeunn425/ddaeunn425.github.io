@@ -4,7 +4,7 @@
   "basis": "RFI v1.2 · 네트컴시스템 기존 견적 · 구축계획서_v4 · HSU-PAC 테스트베드 네트워크 구축 요구사양서",
   "updated": "2026.11.07",
   "summary": "<p>1차는 기존 GPU 서버를 활용해 수업을 개통하고, 2차는 고속망과 미션존을 확장하며, 3차는 로봇 실증과 연구 고도화를 검수함. 차수는 도입 우선순위이며 예산과 실습 시험 결과에 따라 조정 예정.</p>",
-  "overview": "<ul><li><p><strong>기존 교내 GPU 서버 우선 활용.</strong> RTX PRO 6000 Blackwell 96GB급 GPU 4장(합계 384GB), CPU 64코어, RAM 512GB, Kubernetes 운영 중. 별도 계정으로 접속하며 신규 GPU 서버는 사용률 검증 후 증설 판단.</p></li><li><p><strong>코어는 추천안 검토.</strong> N9K-C93240YC-FX2.</p></li><li><p><strong>40/100G 연결 요구 유지.</strong> 실제 연결 방식은 서버 포트·거리·기존 교내망 경로를 확인해 결정 예정.</p></li><li><p><strong>최종 수량.</strong> 코어 1대 · 집선 2대 · 컨트롤러 1대 · AP 6대 / NAS 1대 · DGX Spark 1대</p></li></ul><p></p>",
+  "overview": "<ul><li><p><strong>기존 교내 GPU 서버 우선 활용</strong> RTX PRO 6000 Blackwell 96GB급 GPU 4장(합계 384GB), CPU 64코어, RAM 512GB, Kubernetes 운영 중. 별도 계정으로 접속하며 신규 GPU 서버는 사용률 검증 후 증설 판단.</p></li><li><p><strong>코어는 추천안 검토</strong> N9K-C93240YC-FX2.</p></li><li><p><strong>40/100G 연결 요구 유지</strong> 실제 연결 방식은 서버 포트·거리·기존 교내망 경로를 확인해 결정 예정.</p></li><li><p><strong>최종 수량</strong> 코어 1대 · 집선 2대 · 컨트롤러 1대 · AP 6대 / NAS 1대 · DGX Spark 1대</p></li></ul><p></p>",
   "phases": [
     {
       "label": "1차 · 최우선",
