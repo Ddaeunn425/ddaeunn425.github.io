@@ -39,7 +39,7 @@
         "AP 전력 공급",
         "40/100G 모듈"
       ],
-      "comparison": "<p><strong>선정 이유: </strong>AP 전력 공급과 고속 업링크, 단계별 재사용을 함께 고려.</p><p><strong>C9300L-48UXG-4X와 비교: </strong>고정 10G 업링크여서 현행 40/100G 요구와 다름.</p><p><strong>C9300X-48TX-E와 비교: </strong>데이터 전용으로 PoE가 없어 AP 전원을 별도로 준비해야함.</p><p>C9300X-NM-2C를 기준 추천. -E 기능 라이선스와 RFI의 StackWise Virtual 문구 차이는 발주 명세에 반영해야 합니다.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html\">제조사 사양서 ↗</a></p>"
+      "comparison": "<p><strong>선정 이유: </strong>AP 전력 공급과 고속 업링크, 단계별 재사용을 함께 고려.</p><p><strong>C9300L-48UXG-4X와 비교: </strong>고정 10G 업링크여서 현행 40/100G 요구와 다름.</p><p><strong>C9300X-48TX-E와 비교: </strong>데이터 전용으로 PoE가 없어 AP 전원을 별도로 준비해야함.</p><p>2차년도 코어–집선 간 40/100G 연결용 모듈로 C9300X-NM-2C 검토. 집선 스위치 2대의 스택 구성 필요 여부와 RFI에서 요구하는 방식을 확인한 뒤, 모듈·연결 부품·라이선스 범위를 발주 명세에 반영.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html\">제조사 사양서 ↗</a></p>"
     },
     {
       "model": "CW9800L",
