@@ -62,7 +62,7 @@
         "4×4",
         "10G 유선"
       ],
-      "comparison": "<p><strong>선정 이유 </strong>4×4 요구와 선택한 컨트롤러 계열, 구역별 배치를 함께 고려합니다.</p><p><strong>CW9178I와 비교 </strong>추가 무선·유선 이중 연결을 위한 대안입니다. 현재 전 구역 적용의 필요 근거는 부족합니다.</p><p><strong>Aruba AP-735와 비교 </strong>3밴드 동시 2×2 제품으로 현재 4×4 요구와 다르며 Cisco 컨트롤러에 그대로 대체하지 않습니다.</p><p>23Gbps는 특정 무선 모드의 PHY 합산값이며 실제 수업 속도가 아닙니다. 4×4·10G 동작에 필요한 전력과 국내 인증을 확인합니다.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/site/us/en/products/collateral/networking/wireless/access-points/wireless-9176-series-access-points-ds.html\">제조사 사양서 ↗</a></p>"
+      "comparison": "<p><strong>선정 이유 </strong>CW9176I는 Wi-Fi 7과 4×4 MIMO를 지원하며, 선정한 CW9800L에서 통합 관리 가능. 실습실·미션존·로봇 실증 구역에 단계적으로 배치하는 AP로 선정.</p><p><strong>CW9178I와 비교 </strong>CW9178I는 무선 라디오 4개 동시 운용과 10G 유선 포트 2개를 지원. 현재 계획에서는 이 기능이 필요한 구역이 특정되지 않아 CW9176I를 기본 모델로 유지.</p><p><strong>Aruba AP-735와 비교 </strong>AP-735는 3개 대역에서 각각 2×2를 지원해 현재 4×4 선정 기준과 차이가 있음. 적용 시 AP와 함께 무선 관리 구성도 재검토 필요.</p><p>CW9176I의 4×4 무선·10G 유선 동작에 필요한 PoE 공급 조건과 스위치 전체 전력 예산 확인. CW9800L 호환 소프트웨어 버전, 국내 인증 및 사용 가능 주파수 확인. AP 수량과 위치는 현장 조사와 로봇 이동 중 접속 시험 결과에 따라 조정.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/site/us/en/products/collateral/networking/wireless/access-points/wireless-9176-series-access-points-ds.html\">제조사 사양서 ↗</a></p>"
     },
     {
       "model": "N9K-C93240YC-FX2",
