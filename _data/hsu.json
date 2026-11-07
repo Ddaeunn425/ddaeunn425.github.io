@@ -106,11 +106,14 @@
       "file": "HSU-PAC-network-plan.docx"
     },
     {
-      "title": "장비 구매선정안",
-      "detail": "Word / 5쪽",
-      "file": "HSU-PAC-equipment-selection.docx"
+      "title": "한성대학교 Physical AI 실습실 구축계획서 v4.0",
+      "detail": "실습실 구축 방향과 교육·연구 환경을 정리한 계획서. 연산·저장 인프라와 통신망 계획의 배경 자료."
     },
-    {}
+    {
+      "title": "HSU-PAC 통신망 구축 RFI v1.2",
+      "detail": "현재 통신망 구축안을 검토하는 데 적용한 요구사항 자료. 장비 구성과 고속 연결 조건을 확인하는 기준.",
+      "file": "/media/HSU PAC 테스트베드 네트워크 구축_RFI_v1.2.docx의 사본.docx"
+    }
   ],
   "resources_note": "첨부 Word는 기존 작성본입니다. 이 페이지는 2026.11.05에 같은 구축 기준을 읽기 쉬운 노트 형식으로 다시 정리했습니다. 상세 제품 비교의 제조사 링크는 각 장비 항목에서 확인할 수 있습니다."
 }
