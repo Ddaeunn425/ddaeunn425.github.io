@@ -39,7 +39,7 @@
         "AP 전력 공급",
         "40/100G 모듈"
       ],
-      "comparison": "<p><strong>선정 이유: </strong>AP 전력 공급과 고속 업링크, 단계별 재사용을 함께 고려.</p><p><strong>C9300L-48UXG-4X와 비교: </strong>고정 10G 업링크여서 현행 40/100G 요구와 다름.</p><p><strong>C9300X-48TX-E와 비교: </strong>데이터 전용으로 PoE가 없어 AP 전원을 별도로 준비해야함.</p><p>2차년도 코어–집선 간 40/100G 연결용 모듈로 C9300X-NM-2C 검토. 집선 스위치 2대의 스택 구성 필요 여부와 RFI에서 요구하는 방식을 확인한 뒤, 모듈·연결 부품·라이선스 범위를 발주 명세에 반영.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html\">제조사 사양서 ↗</a></p>"
+      "comparison": "<p><strong>선정 이유 </strong>AP 전력 공급과 고속 업링크, 단계별 재사용을 함께 고려.</p><p><strong>C9300L-48UXG-4X와 비교 </strong>고정 10G 업링크여서 현행 40/100G 요구와 다름.</p><p><strong>C9300X-48TX-E와 비교 </strong>데이터 전용으로 PoE가 없어 AP 전원을 별도로 준비해야함.</p><p>2차년도 코어–집선 간 40/100G 연결용 모듈로 C9300X-NM-2C 검토. 집선 스위치 2대의 스택 구성 필요 여부와 RFI에서 요구하는 방식을 확인한 뒤, 모듈·연결 부품·라이선스 범위를 발주 명세에 반영.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9300-series-switches/nb-06-cat9300-ser-data-sheet-cte-en.html\">제조사 사양서 ↗</a></p>"
     },
     {
       "model": "CW9800L",
@@ -48,9 +48,10 @@
       "tags": [
         "단독형",
         "10G 연결",
-        "AP 통합 관리"
+        "AP 통합 관리",
+        "최대 AP 500대 · 단말 10,000대"
       ],
-      "comparison": "<p><strong>선정 이유</strong>RFI의 단독형 컨트롤러·용량·10G 연결 조건을 고려해 유지합니다.</p><p><strong>CW9800M과 비교</strong>더 큰 규모를 위한 장비입니다. 현재 AP 6대 계획에서 추가 용량을 우선 도입할 근거가 부족합니다.</p><p><strong>클라우드 단독 관리와 비교</strong>별도 어플라이언스를 요구하는 현재 기준과 운영 방식이 다릅니다.</p><p>AP 6대에 이 용량이 반드시 필요한 것은 아닙니다. AP와 호환되는 소프트웨어·구독·양 끝 연결 부품을 확인합니다.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/networking/wireless/wireless-lan-controllers/cw9800l-wireless-controller-ds.html\">제조사 사양서 ↗</a></p>"
+      "comparison": "<p><strong>선정 이유 </strong>RFI의 단독형 컨트롤러·용량·10G 연결 조건을 고려해 유지.</p><p><strong>CW9800M과 비교 </strong>더 큰 규모를 위한 장비. 현재 AP 6대 계획에서 추가 용량을 우선 도입할 근거가 부족.</p><p><strong>클라우드 단독 관리와 비교 </strong>별도 어플라이언스를 요구하는 현재 기준과 운영 방식이 다름.</p><p>AP 6대에 이 용량이 반드시 필요한 것은 아님. 그러나 AP와 호환되는 소프트웨어·구독·양 끝 연결 부품을 확인 후 결정.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/networking/wireless/wireless-lan-controllers/cw9800l-wireless-controller-ds.html\">제조사 사양서 ↗</a></p>"
     },
     {
       "model": "CW9176I",
