@@ -73,7 +73,7 @@
         "12 × 40/100G",
         "4.8Tbps"
       ],
-      "comparison": "<p><strong>추천 이유</strong>새 RFI의 대표 포트 구성과 스위칭 용량에 맞습니다. 교수님 승인 완료 제품과는 구분합니다.</p><p><strong>N9K-C93360YC-FX2와 비교</strong>서버 포트가 더 많은 대안입니다. 현재 48포트 요구에서 추가 포트 필요 근거가 없어 우선 제외했습니다.</p><p><strong>C9407R + 48HX와 비교</strong>기존 견적의 10G 구리선 카드는 48개 25G 광포트 요구와 다릅니다.</p><p>전체 RFI 상세 기능·라이선스·정품 신규 공급·지원 조건은 확인이 필요합니다. 코어 1대는 장비 2대 이중화가 아닙니다.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-742282.html\">제조사 사양서 ↗</a></p>"
+      "comparison": "<p><strong>추천 이유 </strong>새 RFI의 대표 포트 구성과 스위칭 용량에 맞습니다. 교수님 승인 완료 제품과는 구분합니다.</p><p><strong>N9K-C93360YC-FX2와 비교</strong>서버 포트가 더 많은 대안입니다. 현재 48포트 요구에서 추가 포트 필요 근거가 없어 우선 제외했습니다.</p><p><strong>C9407R + 48HX와 비교</strong>기존 견적의 10G 구리선 카드는 48개 25G 광포트 요구와 다릅니다.</p><p>전체 RFI 상세 기능·라이선스·정품 신규 공급·지원 조건은 확인이 필요합니다. 코어 1대는 장비 2대 이중화가 아닙니다.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/datasheet-c78-742282.html\">제조사 사양서 ↗</a></p>"
     }
   ],
   "equipment_note": "장비별 비교는 사양과 도입 목적에 따른 선정 근거입니다. 업체가 발행한 가격 비교견적서는 아직 받지 않았으므로 가격 우위나 최종 발주 확정을 의미하지 않습니다.",
