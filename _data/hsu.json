@@ -51,7 +51,7 @@
         "AP 통합 관리",
         "최대 AP 500대 · 단말 10,000대"
       ],
-      "comparison": "<p><strong>선정 이유 </strong>RFI의 단독형 컨트롤러·용량·10G 연결 조건을 고려해 유지.</p><p><strong>CW9800M과 비교 </strong>더 큰 규모를 위한 장비. 현재 AP 6대 계획에서 추가 용량을 우선 도입할 근거가 부족.</p><p><strong>클라우드 단독 관리와 비교 </strong>별도 어플라이언스를 요구하는 현재 기준과 운영 방식이 다름.</p><p>AP 6대에 이 용량이 반드시 필요한 것은 아님. 그러나 AP와 호환되는 소프트웨어·구독·양 끝 연결 부품을 확인 후 결정.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/networking/wireless/wireless-lan-controllers/cw9800l-wireless-controller-ds.html\">제조사 사양서 ↗</a></p>"
+      "comparison": "<p><strong>선정 이유 </strong>CW9176I와의 호환성, RFI의 단독형 컨트롤러·10G 연결 조건, 별도 가상 서버 없이 AP 설정과 접속 정책을 통합 관리할 수 있는 운영 방식을 고려해 CW9800L 1식 유지.</p><p><strong>CW9800M과 비교 </strong>CW9800M은 더 많은 AP와 단말을 관리할 수 있는 모델. 최종 AP 6대 계획에서는 CW9800L의 수용 용량으로 충분해 상위 모델 도입 우선순위가 낮음.</p><p><strong>클라우드 단독 관리와 비교 </strong>클라우드 관리도 CW9176I를 활용할 수 있는 대안. 적용 시 RFI의 단독형 장비 조건, 교내 보안·운영 정책, 구독 비용 검토 필요.</p><p>CW9800L은 최종 AP 6대 기준으로 수용 용량에 여유가 있음. 발주 전 CW9176I와 호환되는 소프트웨어 버전, AP 라이선스·구독 범위, 컨트롤러와 스위치 양쪽의 10G 연결 부품 확인.</p><p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.cisco.com/c/en/us/products/collateral/networking/wireless/wireless-lan-controllers/cw9800l-wireless-controller-ds.html\">제조사 사양서 ↗</a></p>"
     },
     {
       "model": "CW9176I",
